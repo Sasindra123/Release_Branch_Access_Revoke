@@ -1,8 +1,0 @@
-{
-  "gitlab_api_url": "https://gitlab.veevadev.com/api/v4",
-  "repo_names": [
-    "VaultAutomationTests",
-    "automation-platform-pipelines",
-    "QAAutomationReporting"
-  ]
-}

@@ -1,0 +1,23 @@
+2025-11-17 16:44:44,327 - INFO - Using manually provided Jira list: ['DEV-955652']
+2025-11-17 16:44:44,327 - INFO - Jira list entered is: ['DEV-955652']
+2025-11-17 16:44:44,327 - INFO - --- Processing Jira 1/1: DEV-955652 ---
+2025-11-17 16:44:44,327 - INFO - Attempting to retrieve Jira issue details for: DEV-955652
+2025-11-17 16:44:45,245 - INFO - Successfully retrieved Jira details for DEV-955652. Status Code: 200
+2025-11-17 16:44:45,261 - INFO - Assignee found for DEV-955652: Giri Prasad Kemburu
+2025-11-17 16:44:45,262 - INFO - Searching GitLab Merge Requests for Jira ID: DEV-955652 at https://gitlab.veevadev.com/api/v4/merge_requests?scope=all&state=merged&in=title&search_type=advanced&search=DEV-955652
+2025-11-17 16:44:46,287 - INFO - Successfully retrieved 3 merge requests for DEV-955652.
+2025-11-17 16:44:46,287 - INFO - Project-Branch map finalized for DEV-955652: {2939: ['25.2.4', '25.3.0', '25.3.1']}
+2025-11-17 16:44:46,287 - INFO - Branch/Project map result for DEV-955652: {2939: ['25.2.4', '25.3.0', '25.3.1']}
+2025-11-17 16:44:46,287 - INFO - --- Starting access revocation for user 'Giri Prasad Kemburu' ---
+2025-11-17 16:44:46,287 - INFO - Processing Project ID: 2939
+2025-11-17 16:44:46,287 - INFO - Checking protected branch: release%2F25.2.4
+2025-11-17 16:44:47,300 - INFO - Successfully retrieved protected branch details for 'release/25.2.4' (Status: 200).
+2025-11-17 16:44:47,300 - INFO - User 'Giri Prasad Kemburu' does not have specific PUSH or MERGE access levels on protected branch 'release/25.2.4' in project 2939 to revoke.
+2025-11-17 16:44:47,302 - INFO - Checking protected branch: release%2F25.3.0
+2025-11-17 16:44:48,278 - INFO - Successfully retrieved protected branch details for 'release/25.3.0' (Status: 200).
+2025-11-17 16:44:48,279 - INFO - User 'Giri Prasad Kemburu' does not have specific PUSH or MERGE access levels on protected branch 'release/25.3.0' in project 2939 to revoke.
+2025-11-17 16:44:48,279 - INFO - Checking protected branch: release%2F25.3.1
+2025-11-17 16:44:49,209 - INFO - Successfully retrieved protected branch details for 'release/25.3.1' (Status: 200).
+2025-11-17 16:44:49,209 - INFO - User 'Giri Prasad Kemburu' does not have specific PUSH or MERGE access levels on protected branch 'release/25.3.1' in project 2939 to revoke.
+2025-11-17 16:44:49,209 - INFO - --- Finished access revocation for user 'Giri Prasad Kemburu' ---
+2025-11-17 16:44:49,213 - INFO - --- Script Execution Complete ---

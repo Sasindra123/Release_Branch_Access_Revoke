@@ -1,0 +1,27 @@
+2025-11-17 17:22:32,804 - INFO - Using manually provided Jira list: ['QA-410913']
+2025-11-17 17:22:32,805 - INFO - Jira list entered is: ['QA-410913']
+2025-11-17 17:22:32,806 - INFO - --- Processing Jira 1/1: QA-410913 ---
+2025-11-17 17:22:32,806 - INFO - Attempting to retrieve Jira issue details for: QA-410913
+2025-11-17 17:22:33,968 - INFO - Successfully retrieved Jira details for QA-410913. Status Code: 200
+2025-11-17 17:22:33,969 - INFO - Assignee found for QA-410913: Gayan Rajapakshage
+2025-11-17 17:22:33,971 - INFO - Searching GitLab Merge Requests for Jira ID: QA-410913 at https://gitlab.veevadev.com/api/v4/merge_requests?scope=all&state=merged&in=title&search_type=advanced&search=QA-410913
+2025-11-17 17:22:35,547 - INFO - Successfully retrieved 8 merge requests for QA-410913.
+2025-11-17 17:22:35,549 - INFO - Project-Branch map finalized for QA-410913: {2939: ['25.3.0', '25.3.1'], 328: ['25.3.0', '25.3.1']}
+2025-11-17 17:22:35,551 - INFO - Branch/Project map result for QA-410913: {2939: ['25.3.0', '25.3.1'], 328: ['25.3.0', '25.3.1']}
+2025-11-17 17:22:35,552 - INFO - --- Starting access revocation for user 'Gayan Rajapakshage' ---
+2025-11-17 17:22:35,554 - INFO - Processing Project ID: 2939
+2025-11-17 17:22:35,555 - INFO - Checking protected branch: release%2F25.3.0
+2025-11-17 17:22:36,436 - INFO - Successfully retrieved protected branch details for 'release/25.3.0' (Status: 200).
+2025-11-17 17:22:36,437 - INFO - User 'Gayan Rajapakshage' does not have specific PUSH or MERGE access levels on protected branch 'release/25.3.0' in project 2939 to revoke.
+2025-11-17 17:22:36,437 - INFO - Checking protected branch: release%2F25.3.1
+2025-11-17 17:22:37,358 - INFO - Successfully retrieved protected branch details for 'release/25.3.1' (Status: 200).
+2025-11-17 17:22:37,359 - INFO - User 'Gayan Rajapakshage' does not have specific PUSH or MERGE access levels on protected branch 'release/25.3.1' in project 2939 to revoke.
+2025-11-17 17:22:37,360 - INFO - Processing Project ID: 328
+2025-11-17 17:22:37,363 - INFO - Checking protected branch: release%2F25.3.0
+2025-11-17 17:22:38,254 - INFO - Successfully retrieved protected branch details for 'release/25.3.0' (Status: 200).
+2025-11-17 17:22:38,255 - INFO - User 'Gayan Rajapakshage' does not have specific PUSH or MERGE access levels on protected branch 'release/25.3.0' in project 328 to revoke.
+2025-11-17 17:22:38,256 - INFO - Checking protected branch: release%2F25.3.1
+2025-11-17 17:22:39,147 - INFO - Successfully retrieved protected branch details for 'release/25.3.1' (Status: 200).
+2025-11-17 17:22:39,148 - INFO - User 'Gayan Rajapakshage' does not have specific PUSH or MERGE access levels on protected branch 'release/25.3.1' in project 328 to revoke.
+2025-11-17 17:22:39,148 - INFO - --- Finished access revocation for user 'Gayan Rajapakshage' ---
+2025-11-17 17:22:39,150 - INFO - --- Script Execution Complete ---

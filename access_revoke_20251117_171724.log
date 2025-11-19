@@ -1,0 +1,39 @@
+2025-11-17 17:17:24,528 - INFO - Using manually provided Jira list: ['DEV-955652', 'QA-59696']
+2025-11-17 17:17:24,528 - INFO - Jira list entered is: ['DEV-955652', 'QA-59696']
+2025-11-17 17:17:24,528 - INFO - --- Processing Jira 1/2: DEV-955652 ---
+2025-11-17 17:17:24,528 - INFO - Attempting to retrieve Jira issue details for: DEV-955652
+2025-11-17 17:17:25,524 - INFO - Successfully retrieved Jira details for DEV-955652. Status Code: 200
+2025-11-17 17:17:25,524 - INFO - Assignee found for DEV-955652: Giri Prasad Kemburu
+2025-11-17 17:17:25,527 - INFO - Searching GitLab Merge Requests for Jira ID: DEV-955652 at https://gitlab.veevadev.com/api/v4/merge_requests?scope=all&state=merged&in=title&search_type=advanced&search=DEV-955652
+2025-11-17 17:17:26,605 - INFO - Successfully retrieved 3 merge requests for DEV-955652.
+2025-11-17 17:17:26,607 - INFO - Project-Branch map finalized for DEV-955652: {2939: ['25.2.4', '25.3.0', '25.3.1']}
+2025-11-17 17:17:26,607 - INFO - Branch/Project map result for DEV-955652: {2939: ['25.2.4', '25.3.0', '25.3.1']}
+2025-11-17 17:17:26,607 - INFO - --- Starting access revocation for user 'Giri Prasad Kemburu' ---
+2025-11-17 17:17:26,609 - INFO - Processing Project ID: 2939
+2025-11-17 17:17:26,609 - INFO - Checking protected branch: release%2F25.2.4
+2025-11-17 17:17:27,562 - INFO - Successfully retrieved protected branch details for 'release/25.2.4' (Status: 200).
+2025-11-17 17:17:27,562 - INFO - User 'Giri Prasad Kemburu' does not have specific PUSH or MERGE access levels on protected branch 'release/25.2.4' in project 2939 to revoke.
+2025-11-17 17:17:27,562 - INFO - Checking protected branch: release%2F25.3.0
+2025-11-17 17:17:28,478 - INFO - Successfully retrieved protected branch details for 'release/25.3.0' (Status: 200).
+2025-11-17 17:17:28,478 - INFO - User 'Giri Prasad Kemburu' does not have specific PUSH or MERGE access levels on protected branch 'release/25.3.0' in project 2939 to revoke.
+2025-11-17 17:17:28,478 - INFO - Checking protected branch: release%2F25.3.1
+2025-11-17 17:17:29,320 - INFO - Successfully retrieved protected branch details for 'release/25.3.1' (Status: 200).
+2025-11-17 17:17:29,320 - INFO - User 'Giri Prasad Kemburu' does not have specific PUSH or MERGE access levels on protected branch 'release/25.3.1' in project 2939 to revoke.
+2025-11-17 17:17:29,320 - INFO - --- Finished access revocation for user 'Giri Prasad Kemburu' ---
+2025-11-17 17:17:29,320 - INFO - --- Processing Jira 2/2: QA-59696 ---
+2025-11-17 17:17:29,320 - INFO - Attempting to retrieve Jira issue details for: QA-59696
+2025-11-17 17:17:30,378 - INFO - Successfully retrieved Jira details for QA-59696. Status Code: 200
+2025-11-17 17:17:30,381 - INFO - Assignee found for QA-59696: Divya Yadav
+2025-11-17 17:17:30,383 - INFO - Searching GitLab Merge Requests for Jira ID: QA-59696 at https://gitlab.veevadev.com/api/v4/merge_requests?scope=all&state=merged&in=title&search_type=advanced&search=QA-59696
+2025-11-17 17:17:31,673 - INFO - Successfully retrieved 6 merge requests for QA-59696.
+2025-11-17 17:17:31,677 - INFO - Project-Branch map finalized for QA-59696: {328: ['25.3.2']}
+2025-11-17 17:17:31,677 - INFO - Branch/Project map result for QA-59696: {328: ['25.3.2']}
+2025-11-17 17:17:31,679 - INFO - --- Starting access revocation for user 'Divya Yadav' ---
+2025-11-17 17:17:31,679 - INFO - Processing Project ID: 328
+2025-11-17 17:17:31,679 - INFO - Checking protected branch: release%2F25.3.2
+2025-11-17 17:17:32,743 - INFO - Successfully retrieved protected branch details for 'release/25.3.2' (Status: 200).
+2025-11-17 17:17:32,745 - INFO - Found PUSH access ID to revoke for Divya Yadav in project 328 on branch 25.3.2: 125129
+2025-11-17 17:17:32,745 - INFO - Found MERGE access ID to revoke for Divya Yadav in project 328 on branch 25.3.2: 116578
+2025-11-17 17:17:32,747 - INFO - Revocation logic for PUSH, MERGE access for 'Divya Yadav' in project 328 on branch 25.3.2 is currently commented out (Dry Run mode).
+2025-11-17 17:17:32,748 - INFO - --- Finished access revocation for user 'Divya Yadav' ---
+2025-11-17 17:17:32,750 - INFO - --- Script Execution Complete ---

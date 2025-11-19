@@ -1,0 +1,35 @@
+2025-11-18 18:18:31,633 - INFO - Using manually provided Jira list: ['QA-410913']
+2025-11-18 18:18:31,633 - INFO - Jira list entered is: ['QA-410913']
+2025-11-18 18:18:31,633 - INFO - --- Processing Jira 1/1: QA-410913 ---
+2025-11-18 18:18:31,633 - INFO - Attempting to retrieve Jira issue details for: QA-410913
+2025-11-18 18:18:32,726 - INFO - Successfully retrieved Jira details for QA-410913. Status Code: 200
+2025-11-18 18:18:32,728 - INFO - Assignee found for QA-410913: Gayan Rajapakshage
+2025-11-18 18:18:32,729 - INFO - Searching GitLab Merge Requests for Jira ID: QA-410913 at https://gitlab.veevadev.com/api/v4/merge_requests?scope=all&state=merged&in=title&search_type=advanced&search=QA-410913
+2025-11-18 18:18:34,161 - INFO - Successfully retrieved 8 merge requests for QA-410913.
+2025-11-18 18:18:34,165 - INFO - web url : https://gitlab.veevadev.com/veevavault/automation-platform-pipelines/-/merge_requests/2028
+2025-11-18 18:18:34,166 - INFO - web url : https://gitlab.veevadev.com/veevavault/vaultautomationtests/-/merge_requests/70933
+2025-11-18 18:18:34,167 - INFO - web url : https://gitlab.veevadev.com/veevavault/automation-platform-pipelines/-/merge_requests/1939
+2025-11-18 18:18:34,168 - INFO - web url : https://gitlab.veevadev.com/veevavault/vaultautomationtests/-/merge_requests/69782
+2025-11-18 18:18:34,170 - INFO - web url : https://gitlab.veevadev.com/veevavault/vaultautomationtests/-/merge_requests/69094
+2025-11-18 18:18:34,172 - INFO - web url : https://gitlab.veevadev.com/veevavault/automation-platform-pipelines/-/merge_requests/1886
+2025-11-18 18:18:34,172 - INFO - web url : https://gitlab.veevadev.com/veevavault/automation-platform-pipelines/-/merge_requests/1823
+2025-11-18 18:18:34,172 - INFO - web url : https://gitlab.veevadev.com/veevavault/vaultautomationtests/-/merge_requests/68523
+2025-11-18 18:18:34,174 - INFO - Project-Branch map finalized for QA-410913: {2939: ['25.3.0', '25.3.1'], 328: ['25.3.0', '25.3.1']}
+2025-11-18 18:18:34,176 - INFO - Branch/Project map result for QA-410913: {2939: ['25.3.0', '25.3.1'], 328: ['25.3.0', '25.3.1']}
+2025-11-18 18:18:34,179 - INFO - --- Starting access revocation for user 'Gayan Rajapakshage' ---
+2025-11-18 18:18:34,180 - INFO - Processing Project ID: 2939
+2025-11-18 18:18:34,180 - INFO - Checking protected branch: release%2F25.3.0
+2025-11-18 18:18:35,103 - INFO - Successfully retrieved protected branch details for 'release/25.3.0' (Status: 200).
+2025-11-18 18:18:35,103 - INFO - User 'Gayan Rajapakshage' does not have specific PUSH or MERGE access levels on protected branch 'release/25.3.0' in project 2939 to revoke.
+2025-11-18 18:18:35,103 - INFO - Checking protected branch: release%2F25.3.1
+2025-11-18 18:18:36,037 - INFO - Successfully retrieved protected branch details for 'release/25.3.1' (Status: 200).
+2025-11-18 18:18:36,037 - INFO - User 'Gayan Rajapakshage' does not have specific PUSH or MERGE access levels on protected branch 'release/25.3.1' in project 2939 to revoke.
+2025-11-18 18:18:36,037 - INFO - Processing Project ID: 328
+2025-11-18 18:18:36,039 - INFO - Checking protected branch: release%2F25.3.0
+2025-11-18 18:18:36,994 - INFO - Successfully retrieved protected branch details for 'release/25.3.0' (Status: 200).
+2025-11-18 18:18:36,994 - INFO - User 'Gayan Rajapakshage' does not have specific PUSH or MERGE access levels on protected branch 'release/25.3.0' in project 328 to revoke.
+2025-11-18 18:18:36,996 - INFO - Checking protected branch: release%2F25.3.1
+2025-11-18 18:18:37,944 - INFO - Successfully retrieved protected branch details for 'release/25.3.1' (Status: 200).
+2025-11-18 18:18:37,944 - INFO - User 'Gayan Rajapakshage' does not have specific PUSH or MERGE access levels on protected branch 'release/25.3.1' in project 328 to revoke.
+2025-11-18 18:18:37,944 - INFO - --- Finished access revocation for user 'Gayan Rajapakshage' ---
+2025-11-18 18:18:37,944 - INFO - --- Script Execution Complete ---
