@@ -6,5 +6,5 @@ project_search_all = "/merge_requests?scope=all&state=merged&in=title&search_typ
 username = "VaultApiUser"
 password = "woozle11"
 max_Jiras = 30
-default_repo = {314: 'vault'}
+default_repo = {2939:'automation-platform-pipelines'}
 

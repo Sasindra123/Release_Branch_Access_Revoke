@@ -1,0 +1,18 @@
+2025-11-24 12:10:02,310 - INFO - List of Jiras provided: ['DEV-914802']
+2025-11-24 12:10:02,311 - INFO - Jira list : ['DEV-914802']
+2025-11-24 12:10:02,311 - INFO - --- Processing Jira 1/1: DEV-914802 ---
+2025-11-24 12:10:03,107 - INFO - Successfully retrieved Jira details for DEV-914802.
+2025-11-24 12:10:03,108 - INFO - Assignee found for DEV-914802: Vakalapudi Durga Sasindra
+2025-11-24 12:10:03,900 - INFO - Jira issue is Closed. Proceeding with branch access revoking
+2025-11-24 12:10:04,705 - ERROR - GitLab API request failed for DEV-914802. Status Code: 200. Response: []
+2025-11-24 12:10:04,706 - INFO - Response: 200 Without MR executing....
+2025-11-24 12:10:05,447 - INFO - Successfully retrieved Jira details for DEV-914802.
+2025-11-24 12:10:05,448 - INFO - Assignee found for DEV-914802: Vakalapudi Durga Sasindra
+2025-11-24 12:10:05,448 - INFO - ('Success', 'Vakalapudi Durga Sasindra')
+2025-11-24 12:10:06,231 - INFO - Successfully retrieved Jira details for DEV-914802.
+2025-11-24 12:10:06,232 - INFO - []
+2025-11-24 12:10:06,232 - WARNING - No 'fixVersions' or 'name' found in Jira details for DEV-914802.
+2025-11-24 12:10:06,233 - INFO - Branch/Project map result for DEV-914802: {}
+2025-11-24 12:10:06,233 - INFO - --- Starting access revocation for user 'Vakalapudi Durga Sasindra' ---
+2025-11-24 12:10:06,233 - INFO - --------------- Finished access revocation for user 'Vakalapudi Durga Sasindra' ----------------
+2025-11-24 12:10:06,233 - INFO - Results Summary: Jira : DEV-914802, User: Vakalapudi Durga Sasindra, Project-branch map result: {},  Revoke Status: Skipped/No Access Found

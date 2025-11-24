@@ -1,0 +1,6 @@
+2025-11-24 12:09:05,896 - INFO - List of Jiras provided: ['DEV-955652']
+2025-11-24 12:09:05,897 - INFO - Jira list : ['DEV-955652']
+2025-11-24 12:09:05,897 - INFO - --- Processing Jira 1/1: DEV-955652 ---
+2025-11-24 12:09:06,727 - INFO - Successfully retrieved Jira details for DEV-955652.
+2025-11-24 12:09:06,727 - INFO - Assignee found for DEV-955652: Giri Prasad Kemburu
+2025-11-24 12:09:07,530 - WARNING - Jira issue is Reopened. Can't revoke access until the issue is RESOLVED / CLOSED

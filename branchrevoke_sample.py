@@ -144,32 +144,32 @@ def revoke_access(username, branch_project_id_map, private_token):
                         print(f"Found MERGE access ID to revoke for {username} in project {project_id} on branch {branch}: {merge_access_rule_id}")
                         break
 
-            #     payload = {}
-            #     revoked_message = []
+                # payload = {}
+                # revoked_message = []
 
-            #     if push_access_rule_id:
-            #         payload["allowed_to_push"] = [{"id": push_access_rule_id, "_destroy": True}]
-            #         revoked_message.append("PUSH")
+                # if push_access_rule_id:
+                #     payload["allowed_to_push"] = [{"id": push_access_rule_id, "_destroy": True}]
+                #     revoked_message.append("PUSH")
 
-            #     if merge_access_rule_id:
-            #         payload["allowed_to_merge"] = [{"id": merge_access_rule_id, "_destroy": True}]
-            #         revoked_message.append("MERGE")
+                # if merge_access_rule_id:
+                #     payload["allowed_to_merge"] = [{"id": merge_access_rule_id, "_destroy": True}]
+                #     revoked_message.append("MERGE")
 
                 
-            #     if not payload:
-            #         logging.info(f"User '{username}' does not have specific PUSH or MERGE access levels on branch '{branch}' in project {project_id} to revoke.")
-            #         continue
+                # if not payload:
+                #     logging.info(f"User '{username}' does not have specific PUSH or MERGE access levels on branch '{branch}' in project {project_id} to revoke.")
+                #     continue
 
-            #     print(f"Sending PATCH payload to revoke access: {payload}")
-            #     destroy_response = requests.patch(base_url, headers=headers, json=payload)
+                # print(f"Sending PATCH payload to revoke access: {payload}")
+                # destroy_response = requests.patch(base_url, headers=headers, json=payload)
 
-            #     if destroy_response.status_code == 200:
-            #         logging.info(f"Successfully revoked {', '.join(revoked_message)} access for '{username}' on branch '{branch}' in project {project_id}")
-            #     else:
-            #         logging.error(
-            #             f"Failed to remove access for '{username}' on branch '{branch}' in project {project_id}."
-            #             f"Status code: {destroy_response.status_code}, Response: {destroy_response.text}"
-            #         )
+                # if destroy_response.status_code == 200:
+                #     logging.info(f"Successfully revoked {', '.join(revoked_message)} access for '{username}' on branch '{branch}' in project {project_id}")
+                # else:
+                #     logging.error(
+                #         f"Failed to remove access for '{username}' on branch '{branch}' in project {project_id}."
+                #         f"Status code: {destroy_response.status_code}, Response: {destroy_response.text}"
+                #     )
 
             except requests.exceptions.RequestException as e:
                 logging.error(f"Request error while revoking access for branch '{branch}' in project {project_id}: {e}")
@@ -244,15 +244,15 @@ if __name__ == "__main__":
         revoke_result = revoke_access(user_result, branch_project_result, private_token)
         print("------------------------------------------")
         print("------------------------------------------")
-        # # if access_status == "error":
-        # #     logging.error(access_result)
-        # #     results_summary.append({
-        # #     "Jira": each_jira,
-        # #     "branch" : "",
-        # #     "User Status": user_result,
-        # #     "Project Status": project_result,
-        # #     "Access Status": access_status,
-        # #     "Jira Update Status": "",
-        # #     "FixVersion Update": ""
-        # #     })
-        # #     continue
+        # if access_status == "error":
+        #     logging.error(access_result)
+        #     results_summary.append({
+        #     "Jira": each_jira,
+        #     "branch" : "",
+        #     "User Status": user_result,
+        #     "Project Status": project_result,
+        #     "Access Status": access_status,
+        #     "Jira Update Status": "",
+        #     "FixVersion Update": ""
+        #     })
+        #     continue

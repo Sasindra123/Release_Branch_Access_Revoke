@@ -1,0 +1,9 @@
+2025-11-24 12:59:23,392 - INFO - List of Jiras provided: ['DEV-968658']
+2025-11-24 12:59:23,392 - INFO - Jira list : ['DEV-968658']
+2025-11-24 12:59:23,393 - INFO - --- Processing Jira 1/1: DEV-968658 ---
+2025-11-24 12:59:24,160 - INFO - Successfully retrieved Jira details for DEV-968658.
+2025-11-24 12:59:24,161 - INFO - Assignee found for DEV-968658: Vakalapudi Durga Sasindra
+2025-11-24 12:59:24,920 - INFO - Jira issue is Closed. Proceeding with branch access revoking
+2025-11-24 12:59:25,722 - ERROR - MR is Not Linked to DEV-968658. Status Code: 200. Response: []
+2025-11-24 12:59:25,725 - INFO - Response: 200 Without MR executing....
+2025-11-24 12:59:25,725 - INFO - Entering into default repo execution...

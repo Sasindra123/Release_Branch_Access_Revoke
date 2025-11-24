@@ -1,0 +1,25 @@
+2025-11-21 15:48:11,324 - INFO - List of Jiras provided: ['DEV-955652']
+2025-11-21 15:48:11,324 - INFO - Jira list : ['DEV-955652']
+2025-11-21 15:48:11,324 - INFO - --- Processing Jira 1/1: DEV-955652 ---
+2025-11-21 15:48:12,121 - INFO - Successfully retrieved Jira details for DEV-955652.
+2025-11-21 15:48:12,121 - INFO - Assignee found for DEV-955652: Giri Prasad Kemburu
+2025-11-21 15:48:13,121 - INFO - Branch/Project map result for DEV-955652: {2939: ['25.2.4', '25.3.0', '25.3.1']}
+2025-11-21 15:48:13,122 - INFO - --- Starting access revocation for user 'Giri Prasad Kemburu' ---
+2025-11-21 15:48:13,123 - INFO - Processing Project ID: 2939
+2025-11-21 15:48:13,123 - INFO - Checking protected branch: release%2F25.2.4
+2025-11-21 15:48:13,921 - INFO - Successfully retrieved protected branch details for 'release/25.2.4' (Status: 200).
+2025-11-21 15:48:13,921 - INFO - Found PUSH access ID to revoke for Giri Prasad Kemburu in project 2939 on branch 25.2.4: 125447
+2025-11-21 15:48:13,921 - INFO - Found MERGE access ID to revoke for Giri Prasad Kemburu in project 2939 on branch 25.2.4: 116834
+2025-11-21 15:48:14,801 - INFO - Successfully revoked PUSH, MERGE access for 'Giri Prasad Kemburu' on branch '25.2.4' in project 2939
+2025-11-21 15:48:14,801 - INFO - Checking protected branch: release%2F25.3.0
+2025-11-21 15:48:15,598 - INFO - Successfully retrieved protected branch details for 'release/25.3.0' (Status: 200).
+2025-11-21 15:48:15,598 - INFO - Found PUSH access ID to revoke for Giri Prasad Kemburu in project 2939 on branch 25.3.0: 125448
+2025-11-21 15:48:15,598 - INFO - Found MERGE access ID to revoke for Giri Prasad Kemburu in project 2939 on branch 25.3.0: 116835
+2025-11-21 15:48:16,505 - INFO - Successfully revoked PUSH, MERGE access for 'Giri Prasad Kemburu' on branch '25.3.0' in project 2939
+2025-11-21 15:48:16,505 - INFO - Checking protected branch: release%2F25.3.1
+2025-11-21 15:48:17,337 - INFO - Successfully retrieved protected branch details for 'release/25.3.1' (Status: 200).
+2025-11-21 15:48:17,337 - INFO - Found PUSH access ID to revoke for Giri Prasad Kemburu in project 2939 on branch 25.3.1: 125449
+2025-11-21 15:48:17,337 - INFO - Found MERGE access ID to revoke for Giri Prasad Kemburu in project 2939 on branch 25.3.1: 116836
+2025-11-21 15:48:18,216 - INFO - Successfully revoked PUSH, MERGE access for 'Giri Prasad Kemburu' on branch '25.3.1' in project 2939
+2025-11-21 15:48:18,216 - INFO - --------------- Finished access revocation for user 'Giri Prasad Kemburu' ----------------
+2025-11-21 15:48:18,216 - INFO - Results Summary: Jira : DEV-955652, User: Giri Prasad Kemburu, Project-branch map result: {2939: ['25.2.4', '25.3.0', '25.3.1']},  Revoke Status: ('Success', "Successfully revoked PUSH, MERGE access for 'Giri Prasad Kemburu' on branch '25.2.4' in project 2939")
