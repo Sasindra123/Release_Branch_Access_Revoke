@@ -1,0 +1,16 @@
+2025-11-24 18:58:34,157 - INFO - List of Jiras provided: ['DEV-968658']
+2025-11-24 18:58:34,159 - INFO - Jira list : ['DEV-968658']
+2025-11-24 18:58:34,159 - INFO - --- Processing Jira 1/1: DEV-968658 ---
+2025-11-24 18:58:34,947 - INFO - Successfully retrieved Jira details for DEV-968658.
+2025-11-24 18:58:34,947 - INFO - Assignee found for DEV-968658: Vakalapudi Durga Sasindra
+2025-11-24 18:58:35,708 - INFO - Jira issue is Closed. Proceeding with branch access revoking
+2025-11-24 18:58:36,485 - ERROR - MR is Not Linked to DEV-968658. Status Code: 200. Response: []
+2025-11-24 18:58:36,488 - INFO - Response: 200 Without MR executing....
+2025-11-24 18:58:36,489 - INFO - Entering into default repo execution...
+2025-11-24 18:58:37,208 - INFO - Branch/Project map result for DEV-968658: {2939: [['25.3.2', '25.3.0']]}
+2025-11-24 18:58:37,208 - INFO - --- Starting access revocation for user 'Vakalapudi Durga Sasindra' ---
+2025-11-24 18:58:37,208 - INFO - Processing Project ID: 2939
+2025-11-24 18:58:37,208 - INFO - Checking protected branch: release%2F['25.3.2', '25.3.0']
+2025-11-24 18:58:38,025 - WARNING - Branch 'release/['25.3.2', '25.3.0']' is not protected in project ID 2939 (404 Not Found). Skipping revocation.
+2025-11-24 18:58:38,026 - INFO - --------------- Finished access revocation for user 'Vakalapudi Durga Sasindra' ----------------
+2025-11-24 18:58:38,026 - INFO - Results Summary: Jira : DEV-968658, User: Vakalapudi Durga Sasindra, Project-branch map result: {2939: [['25.3.2', '25.3.0']]},  Revoke Status: Skipped/No Access Found

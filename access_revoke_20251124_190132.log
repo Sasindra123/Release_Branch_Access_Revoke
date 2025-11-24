@@ -1,0 +1,18 @@
+2025-11-24 19:01:32,492 - INFO - List of Jiras provided: ['DEV-968658']
+2025-11-24 19:01:32,492 - INFO - Jira list : ['DEV-968658']
+2025-11-24 19:01:32,492 - INFO - --- Processing Jira 1/1: DEV-968658 ---
+2025-11-24 19:01:33,282 - INFO - Successfully retrieved Jira details for DEV-968658.
+2025-11-24 19:01:33,283 - INFO - Assignee found for DEV-968658: Vakalapudi Durga Sasindra
+2025-11-24 19:01:34,050 - INFO - Jira issue is Closed. Proceeding with branch access revoking
+2025-11-24 19:01:34,825 - ERROR - MR is Not Linked to DEV-968658. Status Code: 200. Response: []
+2025-11-24 19:01:34,825 - INFO - Response: 200 Without MR executing....
+2025-11-24 19:01:34,825 - INFO - Entering into default repo execution...
+2025-11-24 19:01:35,629 - INFO - Branch/Project map result for DEV-968658: {2939: ['25.3.2', '25.3.0']}
+2025-11-24 19:01:35,629 - INFO - --- Starting access revocation for user 'Vakalapudi Durga Sasindra' ---
+2025-11-24 19:01:35,629 - INFO - Processing Project ID: 2939
+2025-11-24 19:01:35,629 - INFO - Checking protected branch: release%2F25.3.2
+2025-11-24 19:01:36,411 - INFO - User 'Vakalapudi Durga Sasindra' does not have specific PUSH or MERGE access levels on branch '25.3.2' in project 2939 to revoke.
+2025-11-24 19:01:36,412 - INFO - Checking protected branch: release%2F25.3.0
+2025-11-24 19:01:37,190 - INFO - User 'Vakalapudi Durga Sasindra' does not have specific PUSH or MERGE access levels on branch '25.3.0' in project 2939 to revoke.
+2025-11-24 19:01:37,190 - INFO - --------------- Finished access revocation for user 'Vakalapudi Durga Sasindra' ----------------
+2025-11-24 19:01:37,190 - INFO - Results Summary: Jira : DEV-968658, User: Vakalapudi Durga Sasindra, Project-branch map result: {2939: ['25.3.2', '25.3.0']},  Revoke Status: Skipped/No Access Found

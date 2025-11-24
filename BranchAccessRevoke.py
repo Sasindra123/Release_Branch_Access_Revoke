@@ -89,8 +89,6 @@ def get_branch_from_jira(jira_id):
 
             # get 'name' field from fixVersions
             fixversion_data=response_json.get('fields',{}).get('fixVersions',[])
-            print(fixversion_data[0].get('name'))
-            print(fixversion_data)
             if not fixversion_data:
                 logging.error(f"FixVersion field is empty or invalid {fixversion_data}. Can't proceed with branch access revoke")
                 sys.exit()
@@ -100,10 +98,6 @@ def get_branch_from_jira(jira_id):
                     for item in fixversion_data 
                     if item.get('name')  
                 ]
-                print(branches)
-                for branch in branches:
-                    branches.append(branch.replace('R', '.'))
-                logging.info(f"Fetched branch from jira : {branches}")
             return "Success",branches
             
         else:
@@ -142,10 +136,10 @@ def get_branch_project_map(jira_id, private_token, qa_mode=False):
 
                 if branch_status == "Success":
                     for project_id in limited_repos.keys():
-                        projectId_branch_map[project_id] = [branches_from_jira]
+                        projectId_branch_map[project_id] = branches_from_jira
                 return "Success", projectId_branch_map 
             else:
-                logging.error(f"Cannot proceed with default repos for {jira_id}: Failed to retrieve branch name from Jira.")
+                logging.error(f"Cannot proceed with default repos for {jira_id}: Failed to retrieve branch name from QA Jira.")
                 return "error", error_message
             
         else:

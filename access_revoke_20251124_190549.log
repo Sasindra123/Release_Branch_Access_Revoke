@@ -1,0 +1,22 @@
+2025-11-24 19:05:49,452 - INFO - List of Jiras provided: ['DEV-968658']
+2025-11-24 19:05:49,452 - INFO - Jira list : ['DEV-968658']
+2025-11-24 19:05:49,452 - INFO - --- Processing Jira 1/1: DEV-968658 ---
+2025-11-24 19:05:50,194 - INFO - Successfully retrieved Jira details for DEV-968658.
+2025-11-24 19:05:50,209 - INFO - Assignee found for DEV-968658: Vakalapudi Durga Sasindra
+2025-11-24 19:05:50,953 - INFO - Jira issue is Closed. Proceeding with branch access revoking
+2025-11-24 19:05:51,791 - ERROR - MR is Not Linked to DEV-968658. Status Code: 200. Response: []
+2025-11-24 19:05:51,807 - INFO - Response: 200 Without MR executing....
+2025-11-24 19:05:51,807 - INFO - Entering into default repo execution...
+2025-11-24 19:05:52,522 - INFO - Branch/Project map result for DEV-968658: {2939: ['25.3.2', '25.3.0']}
+2025-11-24 19:05:52,522 - INFO - --- Starting access revocation for user 'Vakalapudi Durga Sasindra' ---
+2025-11-24 19:05:52,538 - INFO - Processing Project ID: 2939
+2025-11-24 19:05:52,538 - INFO - Checking protected branch: release%2F25.3.2
+2025-11-24 19:05:53,328 - INFO - Found PUSH access ID to revoke for Vakalapudi Durga Sasindra in project 2939 on branch 25.3.2: 125533
+2025-11-24 19:05:53,328 - INFO - Found MERGE access ID to revoke for Vakalapudi Durga Sasindra in project 2939 on branch 25.3.2: 116908
+2025-11-24 19:05:54,244 - INFO - Successfully revoked PUSH, MERGE access for 'Vakalapudi Durga Sasindra' on branch '25.3.2' in project 2939
+2025-11-24 19:05:54,244 - INFO - Checking protected branch: release%2F25.3.0
+2025-11-24 19:05:55,085 - INFO - Found PUSH access ID to revoke for Vakalapudi Durga Sasindra in project 2939 on branch 25.3.0: 125534
+2025-11-24 19:05:55,087 - INFO - Found MERGE access ID to revoke for Vakalapudi Durga Sasindra in project 2939 on branch 25.3.0: 116909
+2025-11-24 19:05:55,930 - INFO - Successfully revoked PUSH, MERGE access for 'Vakalapudi Durga Sasindra' on branch '25.3.0' in project 2939
+2025-11-24 19:05:55,930 - INFO - --------------- Finished access revocation for user 'Vakalapudi Durga Sasindra' ----------------
+2025-11-24 19:05:55,930 - INFO - Results Summary: Jira : DEV-968658, User: Vakalapudi Durga Sasindra, Project-branch map result: {2939: ['25.3.2', '25.3.0']},  Revoke Status: Success

@@ -1,6 +1,0 @@
-2025-11-24 12:47:12,456 - INFO - List of Jiras provided: ['DEV-968658']
-2025-11-24 12:47:12,457 - INFO - Jira list : ['DEV-968658']
-2025-11-24 12:47:12,457 - INFO - --- Processing Jira 1/1: DEV-968658 ---
-2025-11-24 12:47:13,263 - INFO - Successfully retrieved Jira details for DEV-968658.
-2025-11-24 12:47:13,264 - INFO - Assignee found for DEV-968658: Vakalapudi Durga Sasindra
-2025-11-24 12:47:14,016 - WARNING - Jira issue is Reopened. Can't revoke access until the issue is RESOLVED / CLOSED

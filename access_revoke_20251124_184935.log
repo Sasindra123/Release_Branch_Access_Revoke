@@ -1,0 +1,10 @@
+2025-11-24 18:49:35,135 - INFO - List of Jiras provided: ['QA-426489']
+2025-11-24 18:49:35,135 - INFO - Jira list : ['QA-426489']
+2025-11-24 18:49:35,135 - INFO - --- Processing Jira 1/1: QA-426489 ---
+2025-11-24 18:49:36,123 - INFO - Successfully retrieved Jira details for QA-426489.
+2025-11-24 18:49:36,123 - INFO - Assignee found for QA-426489: Giri Prasad Kemburu
+2025-11-24 18:49:37,138 - INFO - Jira issue is Closed. Proceeding with branch access revoking
+2025-11-24 18:49:37,932 - ERROR - MR is Not Linked to QA-426489. Status Code: 200. Response: []
+2025-11-24 18:49:37,932 - INFO - Response: 200 Without MR executing....
+2025-11-24 18:49:37,932 - ERROR - Cannot proceed with default repos for QA-426489: Failed to retrieve branch name from Jira.
+2025-11-24 18:49:37,932 - INFO - Branch/Project map result for QA-426489: MR is Not Linked to QA-426489. Status Code: 200. Response: []

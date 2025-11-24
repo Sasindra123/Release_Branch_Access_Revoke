@@ -1,0 +1,6 @@
+2025-11-24 18:49:09,450 - INFO - List of Jiras provided: ['QA-426489']
+2025-11-24 18:49:09,450 - INFO - Jira list : ['QA-426489']
+2025-11-24 18:49:09,450 - INFO - --- Processing Jira 1/1: QA-426489 ---
+2025-11-24 18:49:10,450 - INFO - Successfully retrieved Jira details for QA-426489.
+2025-11-24 18:49:10,450 - INFO - Assignee found for QA-426489: Giri Prasad Kemburu
+2025-11-24 18:49:11,400 - WARNING - Jira issue is Open. Can't revoke access until the issue is RESOLVED / CLOSED
