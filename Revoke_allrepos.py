@@ -151,7 +151,7 @@ def revoke_all_access(branches, repo_list, private_token):
                 print(f"Error occured while revoking the branch access.")
 
 
-# Main Function
+# MAIN FUNCTION
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="GitLab Protected Branch Access Revocation Tool.")
     parser.add_argument('-g', '--gitlab_token', help='GitLab private token')

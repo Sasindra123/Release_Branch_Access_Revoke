@@ -11,8 +11,10 @@ all_repos = [
         #     {"314": "Vault"}
         # ],
         "QA": [
-            {"328": "VaultAutomationTests",
-             "2939": "automation-platform-pipelines"}
+            {
+                "328": "VaultAutomationTests",
+                "2939": "automation-platform-pipelines"
+            }
         ],
         # "Safety": [
         #     {
